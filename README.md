@@ -15,7 +15,7 @@ The predictor leverages a comprehensive dataset comprising millions of mortgage 
 
 ## Usage
 
-While you are free to view the visualizations, read annotations, and examine model performance, to locally reproduce our results, you must first request and download the associated dataset directly from Freddie Mac at their [data release page](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset).
+While you are free to view the visualizations, read annotations, and examine model performance, to locally reproduce our results, you must first request and download the associated dataset directly from Freddie Mac at their [data release page](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset). Then specify the data directory in the *home* variable. Run the scripts in the order of parser, preprocessor, analysis, and finally model to view results.
 
 ## Credit
 
