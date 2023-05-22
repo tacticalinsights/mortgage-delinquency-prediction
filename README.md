@@ -9,7 +9,7 @@ The predictor leverages a comprehensive dataset comprising millions of mortgage 
 ## Features
 
 - **Data Preprocessing:** Data preprocessing pipeline that handles data partitioning, missing values, and feature encoding to ensure the data is ready for model training.
-- **Visualization:** Includes visualizations - histograms, scatter plots, violin plots, and heatmaps - tailored to provide insights into feature distributions, trends, and aid in understanding latent inter-feature relationships.
+- **Visualization:** Includes visualizations - histograms, scatter plots, violin plots, and more - tailored to provide insights into feature distributions, trends, and aid in understanding latent inter-feature relationships.
 - **Machine Learning Models:** Employs over 30 machine learning algorithms from baseline Logistic Regression to fine-tuned Gradient Boosting, to build predictive models that can effectively identify borrowers at risk of delinquency.
 - **Model Evaluation:** Incorporates robust model evaluation techniques, including cross-validation and performance metrics such as F1-score and ROC AUC score to assess the model's performance and ensure its reliability.
 
