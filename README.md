@@ -13,9 +13,21 @@ The predictor leverages a comprehensive dataset comprising millions of mortgage 
 - **Machine Learning Models:** Employs over 30 machine learning algorithms from baseline Logistic Regression to fine-tuned Gradient Boosting, to build predictive models that can effectively identify borrowers at risk of delinquency.
 - **Model Evaluation:** Incorporates robust model evaluation techniques, including cross-validation and performance metrics such as F1-score and ROC AUC score to assess the model's performance and ensure its reliability.
 
+## Requirements
+
+- NumPy
+- pandas
+- MODIN
+- matplotlib
+- seaborn
+- imbalanced-learn
+- scikit-learn
+- LightGBM
+- Lazy Predict
+
 ## Usage
 
-While you are free to view the visualizations, read annotations, and examine model performance, to locally reproduce our results, you must first request and download the associated dataset directly from Freddie Mac at their [data release page](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset). Then specify the data directory in the *home* variable. Run the scripts in the order of parser, preprocessor, analysis, and finally model to view results.
+While you are free to view the visualizations, read annotations, and examine model performance, to locally reproduce our results, you must first request and download the associated dataset directly from Freddie Mac at their [data release page](https://www.freddiemac.com/research/datasets/sf-loanlevel-dataset). Then, specify the data directory in the *home* variable. Finally, run the scripts in the order of parser, preprocessor, analysis, and model to view results.
 
 ## Credit
 
